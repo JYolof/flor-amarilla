@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flor Amarilla con Mensaje</title>
+    <style>
+        /* Estilo para el centro de la flor */
+        .centro {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 50%;
+            margin: 0 auto;
+            position: relative;
+            top: 50px;
+        }
+
+        /* Estilo para los pétalos de la flor */
+        .petalo {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .petalo:nth-child(1) {
+            transform: rotate(45deg);
+            top: 0;
+            left: 50px;
+        }
+
+        .petalo:nth-child(2) {
+            transform: rotate(135deg);
+            top: 0;
+            left: -50px;
+        }
+
+        .petalo:nth-child(3) {
+            transform: rotate(225deg);
+            bottom: 0;
+            left: -50px;
+        }
+
+        .petalo:nth-child(4) {
+            transform: rotate(315deg);
+            bottom: 0;
+            left: 50px;
+        }
+
+        /* Estilo para el mensaje */
+        .mensaje {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="centro"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="mensaje">
+        La vida me regaló un instante a tu lado, mi corazón decidió que ese instante fuera eterno, TE QUIERO MUCHO JULIO, AL INFINITO Y MÁS ALLÁ
+    </div>
+</body>
+</html>
